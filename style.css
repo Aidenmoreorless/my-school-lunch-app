@@ -1,0 +1,27 @@
+/* HEADER STYLING */
+#app-header {
+  text-align: center;
+  background-color: #ff9900; /* Warm header background */
+  color: #ffffff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.sub-tagline {
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+}
