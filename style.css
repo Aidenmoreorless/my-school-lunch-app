@@ -70,3 +70,35 @@
   padding: 8px 0;
   border-bottom: 1px dashed #dddddd;
 }
+/* CUSTOMIZATION SECTION STYLING */
+#order-options {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ff9900;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+#order-options h2 {
+  margin-top: 0;
+  color: #333333;
+}
+
+#order-options label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#order-options select,
+#order-options input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
