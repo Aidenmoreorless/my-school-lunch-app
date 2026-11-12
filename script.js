@@ -17,3 +17,16 @@ foodSelect.addEventListener("change", function () {
 prepInput.addEventListener("input", function () {
   foodPrep = prepInput.value;
 });
+// VARIABLE:
+// Stores the time the user selects for their food.
+let selectedTime = "";
+
+// HTML ELEMENT:
+// Connects JavaScript to the time input.
+const timeInput = document.getElementById("order-time");
+
+// EVENT LISTENER:
+// Updates the variable when the user picks a time.
+timeInput.addEventListener("change", function () {
+  selectedTime = timeInput.value;
+});
