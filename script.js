@@ -30,3 +30,25 @@ const timeInput = document.getElementById("order-time");
 timeInput.addEventListener("change", function () {
   selectedTime = timeInput.value;
 });
+// HTML ELEMENTS:
+// Connects JavaScript to the order button and confirmation box.
+const orderBtn = document.getElementById("place-order-btn");
+const confirmationBox = document.getElementById("order-confirmation");
+
+// EVENT LISTENER:
+// Runs when the user clicks the "Place Order" button.
+orderBtn.addEventListener("click", function () {
+  // Check if the user selected a food item and a time
+  if (selectedFood === "" || selectedTime === "") {
+    confirmationBox.textContent = "Please choose a food item and a time before ordering!";
+    return;
+  }
+
+  // Use a default note if the user left customization blank
+  let prepNote = foodPrep !== "" ? foodPrep : "Standard preparation";
+
+  // OUTPUT:
+  // Displays the complete order summary on the screen.
+  confirmationBox.textContent =
+    "Order Placed! " + selectedFood + " (" + prepNote + ") will be ready for " + selectedTime + ".";
+});

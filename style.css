@@ -102,3 +102,33 @@
   border-radius: 5px;
   font-size: 1rem;
 }
+/* =========================================
+   FEATURE 5: ORDER BUTTON & CONFIRMATION
+   ========================================= */
+#place-order-btn {
+  /* Makes the button span the full width of the form */
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #d35400;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#place-order-btn:hover {
+  /* Darkens the button slightly when hovered */
+  background-color: #a04000;
+}
+
+#order-confirmation {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #fff3cd;
+  border-left: 4px solid #ff9900;
+  font-weight: bold;
+  color: #333333;
+}
