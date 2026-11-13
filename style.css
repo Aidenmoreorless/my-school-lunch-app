@@ -1,3 +1,10 @@
+/* Sets the bright yellow background from the Canva design */
+body {
+  background-color: #ffde59;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 /* HEADER STYLING */
 #app-header {
   text-align: center;
